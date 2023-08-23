@@ -5,14 +5,14 @@ public class Test_Class {
     private String c;
 
     //생성자 : 해당 클래스 객체(인스턴스)를 만들 때 정의하는 규칙
-    public TestClass(){
+    public Test_Class(){
 
     }
     //매개변수가 있는 생성자
 
-    public TestClass(int num, String name) {
-        this.num = num;
-        this.name = name;
+    public Test_Class(int num, String name) {
+        this.a = num; //this = 필드의 자원이라는 뜻
+        this.c = name;
     }
 
 
